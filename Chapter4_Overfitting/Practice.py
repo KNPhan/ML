@@ -64,7 +64,7 @@ def predict(x, theta):
     y = np.dot(x, theta)
     print('Predicted sales:', y)
 
-x, y = load('Practice2_Chapter2.csv')
+x, y = load('Chapter4_Overfitting/Practice2_Chapter2.csv')
 # Dynamically determine the number of rows in y
 y = np.reshape(y, (y.shape[0], 1))
 # Add a column of ones to x for the theta0 term
@@ -99,4 +99,3 @@ for i, test_features in enumerate(test_set):
     print(f"\nTest case {i+1}:")
     predict(test_features, theta)
 
-print("File exists")
