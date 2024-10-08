@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -66,7 +65,7 @@ def plot_final_result(x, y, theta0, theta1, cost, iterations):
 
 theta0, theta1, cost_history = gradient_descent(x, y, theta0, theta1, alpha, iterations)
 plot_final_result(x, y, theta0, theta1, cost_history[-1], iterations)
-=======
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -134,4 +133,4 @@ def plot_final_result(x, y, theta0, theta1, cost, iterations):
 
 theta0, theta1, cost_history = gradient_descent(x, y, theta0, theta1, alpha, iterations)
 plot_final_result(x, y, theta0, theta1, cost_history[-1], iterations)
->>>>>>> 3be0b58 (Add Chapter1, Chapter2, and Chapter3)
+
